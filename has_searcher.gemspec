@@ -16,11 +16,11 @@ Gem::Specification.new do |s|
 
   s.files = Dir['{app,config,db,lib}/**/*'] + ['MIT-LICENSE', 'Rakefile', 'README.rdoc']
 
-  s.add_dependency 'rails', '~> 3.2.3'
+  s.add_dependency 'rails'
 
   s.add_development_dependency 'sqlite3'
   s.add_development_dependency 'rspec-rails'
   s.add_development_dependency 'sunspot_matchers'
-  s.add_development_dependency 'sunspot_rails', '>= 2.0.0.pre'
-  s.add_development_dependency 'sunspot_solr', '>= 2.0.0.pre'
+  s.add_development_dependency 'sunspot_rails', '~> 2.1.1'
+  s.add_development_dependency 'sunspot_solr', '~> 2.1.1'
 end
